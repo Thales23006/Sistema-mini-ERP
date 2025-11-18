@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 # banco de dados
 import random
 import os
 import matplotlib
@@ -816,3 +816,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
