@@ -1,7 +1,7 @@
 import sqlite3 # banco de dados
-import random
+import random # para estruturas de dados
 import os
-import matplotlib
+import matplotlib # gráficos
 matplotlib.use('TkAgg') # Define o backend do Matplotlib para o Tkinter
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
@@ -816,4 +816,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
