@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta # Essencial para trabalhar com operações envolvendo datas
 
-import tkinter as tk
+import tkinter as tk # framwork que cria a interface da aplicação
 from tkinter import ttk
 from tkinter import messagebox
 from tkinter import simpledialog
@@ -816,5 +816,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
